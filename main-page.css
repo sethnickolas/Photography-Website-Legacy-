@@ -1,0 +1,142 @@
+/* CSS Document */
+
+ <style type="text/css">
+	
+	#container {}
+	
+	/* style and set the background */
+	body:before {
+	content: "";
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	background: url(../images/grunge_background.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+ 	}
+	
+	.container {
+	position: absolute;
+	border-style:solid;
+    border-width:1px;
+	left: 50%;
+	top: 50%;
+	margin-top: -260px;
+	margin-left: -470px; 
+	-moz-box-shadow:    0px 1px 2px 1px #999;
+ 	-webkit-box-shadow: 0px 1px 2px 1px #999;
+    box-shadow:         2px 2px 5px 0px #999;
+	}
+	
+	#centerRectangle{
+	position: absolute;
+	width:1000px;
+	height:650px;
+	background-color:#FFF;
+	left: 50%;
+	top: 50%;
+	margin-top: -325px;
+	margin-left: -500px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	-moz-box-shadow:    0px 1px 2px 1px #999;
+ 	-webkit-box-shadow: 0px 1px 2px 1px #999;
+  	box-shadow:         0px 1px 2px 1px #999;
+	}
+	
+	#hr1 {
+	position:absolute;
+	margin-left: 1px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+	}
+	
+	
+	#logo{
+	position: absolute;
+	margin-left: 28px;
+	margin-top: 10px;
+	width: 391px;
+	height: auto;
+	}
+	
+	#facebookLogo{
+	position: absolute;
+	overflow: hidden;
+	border-width: 0px;
+	margin-top: 9px;
+	margin-left: 895px;
+	}
+	
+	#twitterButton{
+	position: absolute;
+	border-width: 0px;
+	margin-top: 9px;
+	margin-left: 820px;
+	display:none;
+	}
+	
+	#horizontalMenu{
+	position: relative;
+	margin-left: 450px;
+	margin-top: 20px;
+	z-index: 100;
+	}
+	
+	h1{
+	font-size:18px;	
+	}
+	
+	ul{
+    list-style-type: none;
+	padding:0;
+	margin:0;
+	}
+	
+	#footer{
+	position: absolute;
+	margin-left:1232px;
+	margin-top:707px;	
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	}
+	
+	p{
+	font: Arial, Helvetica, sans-serif;
+	color:#666666;
+	}
+	
+	h1{
+	font-family: 'Headland One', serif;
+	font-size:24px;	
+	margin-bottom:8px;
+	}
+	
+	#centerRectangle #horizontalMenu #jsddm li #active{
+	pointer-events: none;
+	cursor: default;
+	display: block;
+	background: #FFF;
+	padding: 5px 12px;
+	text-decoration: none;
+	width: 70px;
+	color: #333;
+	white-space: nowrap
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+   }
+
+  
+   </style>

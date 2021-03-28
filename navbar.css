@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style>
+#jsddm
+{	
+	margin: 0;
+	padding: 0}
+	
+	#jsddm li
+	{	
+		float: left;
+		list-style: none;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 20px;
+	}
+
+	#jsddm li a
+	{	
+		display: block;
+		background: #FFF;
+		padding: 5px 12px;
+		text-decoration: none;
+		border-right: 0px;
+		width: 60px;
+		color: #333;
+		white-space: nowrap;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		text-align: center;
+		}
+
+	#jsddm li a:hover
+	{	
+		background: #FFB273
+	}
+		
+	#jsddm li ul
+	{	
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		visibility: hidden;
+	}
+		
+	#jsddm li ul li
+	{	
+		float: none;
+		display: inline
+	}
+		
+	#jsddm li ul li a
+	{	
+		width: auto;
+		background: #FFF;
+		text-align: left;	
+	}
+		
+	#jsddm li ul li a:hover
+	{	
+		background: #FFB273
+	}
+	
+</style>
